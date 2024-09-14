@@ -238,7 +238,7 @@ fn repo_pkgbuilds(config: &Config, pkgs: &[Targ<'_>]) -> Result<i32> {
                     "{} {} export {}",
                     tr!("failed to run:"),
                     pkgctl,
-                    targ.to_string()
+                    targ
                 )
             })?;
 

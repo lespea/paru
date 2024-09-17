@@ -72,6 +72,7 @@ impl LocalRepos {
 }
 
 #[derive(Debug, Default, Copy, Clone)]
+#[allow(dead_code)]
 pub struct Colors {
     pub enabled: bool,
     pub field: Style,

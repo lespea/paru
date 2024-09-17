@@ -14,6 +14,7 @@ use futures::try_join;
 use tr::tr;
 
 #[derive(Default, Debug)]
+#[allow(dead_code)]
 pub struct Upgrades {
     pub aur_repos: HashMap<String, String>,
     pub pkgbuild_keep: Vec<(String, String)>,
